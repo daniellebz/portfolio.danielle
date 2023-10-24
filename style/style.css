@@ -34,21 +34,24 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% auto; /* Define a margem direita (auto) para centralizar */
+    text-align: center; /* Alinha o conteúdo do cabeçalho ao centro */
 }
 
 .cabecalho-menu {
     display: flex;
+    justify-content: center; /* Centraliza os itens do menu horizontalmente */
     gap: 80px;
 }
 
-.cabecalho-menu-links{
+.cabecalho-menu-links {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: white;
     text-decoration: none;
 }
+
 
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
@@ -131,6 +134,17 @@ body {
     text-align: justify;
 }
 
+.apresentacao-conteudo-texto{
+    font-size: 27px;
+
+    /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
+    font-family: 'Montserrat', sans-serif;
+
+    /* Alinha o texto justificado */
+    text-align: justify;
+
+}
+
 
 /* Iniciando estilização da ancora1 (botao1) */
 
@@ -178,7 +192,7 @@ body {
     align-items: center;
 
     /* Adiciona uma borda de 2px sólida laranja */
-    border: 2px solid #ff5500;
+    border: 2px solid #ffffff;
 
     /* Define um raio de borda de 50px para criar um botão circular */
     border-radius: 50px;
@@ -477,7 +491,7 @@ body {
     border-radius: 20px;
 
     /* Adiciona uma sombra suave ao elemento */
-    box-shadow: 0px 0px 50px rgba(202, 198, 198, 0.8);
+    box-shadow: 0px 0px 50px rgba(253, 251, 251, 0.8);
 
     /* Adiciona uma transição suave à escala do elemento */
     transition: transform 0.3s ease-in-out;
